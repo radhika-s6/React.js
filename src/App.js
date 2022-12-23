@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Navbar from './components/Navbar'
-import Form from './components/Form'
+// import Form from './components/Form'
 import Alert from './components/Alert'
-// import About from "./components/About";
+import About from "./components/About";
 
 export default function App()
 {
@@ -42,8 +42,8 @@ export default function App()
 
     <Navbar mode={mode} toggle={handleClick} />
     <Alert alert={alert} />
-    <Form title="Text Utilizer App" mode={mode} toggle={handleClick} showAlert={showAlert} />
-    {/* <About/> */}
+    {/* <Form title="Text Utilizer App" mode={mode} toggle={handleClick} showAlert={showAlert} /> */}
+    <About/>
 
     </>
   );
