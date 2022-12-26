@@ -42,8 +42,11 @@ export default function App()
 
     <Navbar mode={mode} toggle={handleClick} />
     <Alert alert={alert} />
+
+   
+
     {/* <Form title="Text Utilizer App" mode={mode} toggle={handleClick} showAlert={showAlert} /> */}
-    <About/>
+    {/* <About/> */}
 
     </>
   );
