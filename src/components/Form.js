@@ -37,7 +37,7 @@ export default function Form(props) {
             <div className="container mt-5" style={{ color: props.mode === "dark" ? "white" : "black" }}>
                 <div>
                     <h1> {props.title} </h1>
-                    <textarea className="form-control" id="textarea" rows="10" onChange={onTextChange} style={{ backgroundColor: props.mode === "dark" ? "grey" : "white" }} value={text} placeholder="Enter your text" ></textarea>
+                    <textarea className="form-control" id="textarea" rows="10" onChange={onTextChange} style={{ backgroundColor: props.mode === "dark" ? "rgb(6, 75, 144)" : "white", color: props.mode === "dark" ? "white" : "black" }} value={text} placeholder="Enter your text" ></textarea>
                 </div>
 
                 <button className="btn btn-info mt-2" onClick={handleClickUp}>Uppercase</button>

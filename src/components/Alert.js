@@ -8,9 +8,11 @@ function Alert(props) {
     }
     return (
         
-         props.alert && <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert" >
+        <div style={{height:'60px'}}>
+         { props.alert && <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert" >
          <strong>{Captialize(props.alert.type)} </strong>{props.alert.msg}
-            
+
+         </div> }   
         </div>
        
     )
