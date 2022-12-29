@@ -49,8 +49,8 @@ export default function Form(props) {
                 </div>
                 <div className="container" style={{color:props.mode==="dark"?"White":"Black"}}>
                     <h2 className="mt-5">Text Summary: </h2>
-                    <p> {text.split(" ").filter((element)=>{return element.length!==0}).length} <b>Words</b> and {text.split("").filter((element)=>{return element.length!==0}).length} <b>Characters</b> </p>
-                    <p> {0.08 * text.split(" ").length} Minutes to read </p>
+                    <p> {text.split(" ").filter((element)=>{return element.length!==0}).length} <b>Words</b> and {text.length} <b>Characters</b> </p>
+                    <p> {0.08 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes to read </p>
                     <h2 className="mt-4">Preview: </h2>
                     <p>{text}</p>
                 </div>
