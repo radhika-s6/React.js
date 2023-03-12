@@ -46,7 +46,7 @@ export default function App()
 
    <Routes>
     <Route path="/about" element={<About mode={mode} toggle={handleClick} showAlert={showAlert} />} />
-    <Route path="/form" element={<Form title="Text Util Character Counter Remove Extra Space" mode={mode} toggle={handleClick} showAlert={showAlert} />} />
+    <Route path="/form" element={<Form title="Text Utilizer" mode={mode} toggle={handleClick} showAlert={showAlert} />} />
    </Routes>
 
     {/* <Form title="Text Utilizer App" mode={mode} toggle={handleClick} showAlert={showAlert} /> */}
