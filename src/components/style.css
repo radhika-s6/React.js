@@ -1,4 +1,18 @@
-.bg-style
+.glowing-border {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px #3ad5f4;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  .glowing-border:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3ad5f4;
+  }
+
+/* .bg
 {
-    color:aqua;
-}
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,250,1) 100%);
+} */

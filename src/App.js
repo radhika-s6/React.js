@@ -21,8 +21,8 @@ export default function App()
     else
     {
       setMode("dark")
-      document.body.style.backgroundColor='#053a6e';
-      showAlert("dark mode is enabled","success")
+      document.body.style.backgroundColor='black';
+      showAlert("dark mode is enabled", "success");
     }
   }
 
@@ -37,6 +37,7 @@ export default function App()
       setAlert(null);
     }, 3000);
   }
+
 
   return(
     <>
